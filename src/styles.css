@@ -96,3 +96,32 @@ footer {
 
   color: rgba(39, 33, 66, 0.4);
 }
+
+.forecast-container {
+  margin-top: 20px;
+}
+
+.forecast-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.forecast-day {
+  background: #f9f9f9;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  flex: 1;
+  font-size: 14px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.forecast-day-name {
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.forecast-temp {
+  margin-top: 5px;
+}
